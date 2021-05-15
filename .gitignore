@@ -1,3 +1,6 @@
+note_*
+.check_db.py
+*_cache
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
