@@ -1,4 +1,5 @@
-note_*
+data.db
+.note_*
 .check_db.py
 *_cache
 # Byte-compiled / optimized / DLL files
