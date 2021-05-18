@@ -15,7 +15,7 @@ db = SQLAlchemy()
 def create_app():
     from . import views, models, api 
 
-    app.config['SECRET_KEY'] = 'secret key'
+    app.config['SECRET_KEY'] = open('.note_secret_key').read()
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
     
     db.init_app(app)
